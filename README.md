@@ -1,6 +1,6 @@
 # Student-Affair-Web-page Project
 
-# Discription:
+# Description:
 ### 1- User add a new student to the system. Student information includes id, name, date of birth, GPA, gender, level, status=”active”, “inactive”, department, email, mobile number.
 ### 2- User update an existing student information (except department field should be shown disabled for editing).
 ### 3- User can delete an existing student data through a delete button in edit student data page with a confirmation dialogue for the action before deletion occurs.

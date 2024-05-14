@@ -10,6 +10,6 @@
 ### 7- User can change the status of student from active to inactive or vice versa from the table viewing all students.
 ### 8- Website should have a well-designed navigation bar to go through all pages and a home page.
 # Features added or changed:
-### 9- Add a new homepage for your website with the four names of the recommended projects( Human Resources, Students Affairs, Higher Studies and Laboratory Tracking). On clicking on the name of your chosen project, the page should load your website else nothing happens. This homepage will be common across all projects so try to design it in a good way.
-### 10- Add all needed JavaScript code for the built HTML pages to enable all frontend validations , button actions and navigation through your website. Add all JavaScript code in separate file(s)
-### 11-  Add all styling to HTML pages using CSS. Applying CSS in a good way will be graded. Add CSS in external file(s).
+### 1- Add a new homepage for your website with the four names of the recommended projects( Human Resources, Students Affairs, Higher Studies and Laboratory Tracking). On clicking on the name of your chosen project, the page should load your website else nothing happens. This homepage will be common across all projects so try to design it in a good way.
+### 2- Add all needed JavaScript code for the built HTML pages to enable all frontend validations , button actions and navigation through your website. Add all JavaScript code in separate file(s)
+### 3-  Add all styling to HTML pages using CSS. Applying CSS in a good way will be graded. Add CSS in external file(s).

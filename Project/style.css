@@ -1,0 +1,197 @@
+body {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table{
+    /* position: absolute;
+    left: 50%;
+    top: 50%; */
+    /* transform: translate(-40%,-40%); */
+    
+    width: 60%; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64,64,64,.7);
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+}
+
+th{
+    background-color: rgb(51, 51, 53);
+    color: #fafafa;
+    font-weight: 200;
+    /* text-transform: uppercase; */   
+}
+
+td , th{
+    padding: 15px 20px;
+    text-align: center;
+}
+
+table, th, td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    justify-items: center;
+    align-items: center;
+}
+
+.centertable {
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 40%;
+}
+
+/* class container to make it grid */
+.container {
+    display: grid;
+    grid-auto-rows: minmax(52px, auto);
+    grid-template-areas:
+        "head head head head head head"
+        "sl cont cont cont cont cont"
+        "sl cont cont cont cont cont"
+        "sl cont cont cont cont cont"
+        "sl cont cont cont cont cont"
+        "sl cont cont cont cont cont"
+}
+
+.box {
+    text-align: center;
+}
+
+.head {
+    display: grid;
+    grid-area: head;
+    background-color: rgb(31 31 33);
+    color: #f1f1f1;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+}
+
+.sl {
+    grid-area: sl;
+    display: block;
+    margin-inline-start: 60%;
+    justify-items: center;
+    width: 95%;
+    height: auto;
+}
+
+.cont {
+    grid-area: cont;
+}
+
+.responsiveSP {
+    background: rgb(36 36 42);;
+    position: fixed;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    font-family: "Poppins", sans-serif;
+}
+
+.sl ul li a {
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+.sl ul li a:hover,
+.sl ul li a.active {
+    color: #0c7db1;
+    background: white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+.sl ul li a:hover:before,
+.sl ul li a.active:before {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+select{
+    background-color: rgb(51, 51, 53);
+    color: white;
+}
+
+input{
+    
+    background-color: rgb(51, 51, 53);
+    color: white;
+}
+
+input:focus{
+    background-color: rgb(36, 36, 42);
+    transform: scale(1.1);
+}
+
+input::placeholder{
+    color: white;
+}
+
+.btn {
+    width: 170px;
+    height: 75px;
+    color: white;
+    background-color: rgb(51, 51, 53);
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 rgb(0, 95, 87);
+    transition: ease-out 0.4s;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid;
+    display: inline;
+}
+
+.btn:hover {
+    box-shadow: inset 160px 0px 0px 0px rgb(192, 190, 172);
+    cursor: pointer;
+    color: rgb(51, 51, 53);
+}
+
+.slBtn {
+    width: 55px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 51, 53);
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 0 rgb(0, 95, 87);
+    transition: ease-out 0.4s;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 3px solid;
+    display: inline;
+}
+
+.slBtn:hover {
+    box-shadow: inset 47px 0px 0px 0px rgb(192, 190, 172);
+    cursor: pointer;
+    color: rgb(51, 51, 53);
+}
+
+.fa{
+    background-color: white;
+    border: 0px;
+}

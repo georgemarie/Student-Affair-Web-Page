@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+    <title>Departement Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Departement-Assignment-Page.js"></script>
+</head>
+
+<body>
+    <div class="container">    
+        <div class="box head">Departement Assignment Page</div>
+        <div class="box sl">
+            <nav class="responsiveSP">
+                <ul>
+                    <li><a href="main page.html">Home</a></li>
+                    <li><a href= "MyTutorial Page.html">Tutorial</a></li>
+                    <li><a href= "login.html">Login</a></li>
+                    <li><a href="Search.html">Search</a></li>
+                    <li><a href="view.html">view</a></li>
+                    <li><a href="UpdateHomePage.html">Update</a></li>
+                    <li><a href="Add Student.html">Add_Student</a></li>
+                    <li><a href="delete.html">Delete Student</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="box cont" style="margin-inline-start: 35px;">
+            <br>
+            <div align="right"><a href="MyTutorial Page.html"></a></div>
+            <div align="left"><a href="Search.html"></a></div>
+            <h1>Departement Assignment</h1>
+            <br>
+            <form >
+                <fieldset>
+                    <legend>student Information</legend>
+                    <p> <strong>Student ID:</strong><input type = "text" id = "ID" placeholder="Enter ID" readonly/></p> 
+                    <p> <strong>Name:</strong> <input type = "text" id = "Name" placeholder="Enter First name" readonly/></p>
+                    <form method="post" Align="left">
+                    <h3>Departement Choise:
+                    <select id="select">
+                        <option>Departement</option>
+                        <option name ="Departement" type = "select" value="CS">CS</option>
+                        <option name ="Departement" type = "select" value="IT">IT</option>
+                        <option name ="Departement" type = "select" value="IS">IS</option>
+                        <option name ="Departement" type = "select" value="AI">AI</option>
+                        <option name ="Departement" type = "select" value="DS">DS</option>
+                        <br>
+                    </select>
+                    <button id="btnDep" class = "slBtn" type="button">submit</button>
+                    </h3>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

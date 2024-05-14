@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Log in </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">    
+        <div class="box head">Login Page</div>
+        <div class="box sl">
+            <nav class="responsiveSP">
+                <ul>
+                    <li><a href="main page.html">Home</a></li>
+                    <li><a href= "MyTutorial Page.html">Tutorial</a></li>
+                    <li><a href="Search.html">Search</a></li>
+                    <li><a href="view.html">view</a></li>
+                    <li><a href="UpdateHomePage.html">Update</a></li>
+                    <li><a href="Add Student.html">Add_Student</a></li>
+                    <li><a href="delete.html">Delete Student</a></li>
+                </ul>
+            </nav>
+        </div> 
+        <div class="box cont">
+            <br>
+            <h1> Log in</h1>
+            <div>
+                <form action="MyTutorial Page.html" method="POST">
+                    <div>
+                        <i class="fa-solid fa-envelope"></i> <input placeholder=" Enter your E-mail..." type="email" id = "Email" required>
+                        <br> <br>
+                        <i class="fa-solid fa-key"></i> <input  placeholder=" Enter your Password..." type="password" id="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                    </div>
+                    <br> <br>
+                    <div>
+                        <button class="slBtn" type="submit" id = "btnLogin">Login</button>
+                        <button class="slBtn" type="button">Cancel</button></div>
+                    </div>
+                    <br> <br>
+                    <br> <br>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="login.js"></script>
+</html>

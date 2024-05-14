@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+    <title>Add student</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="Add.js"></script>
+</head>
+<body>
+    <div class="container">    
+        <div class="box head">Add Student Page</div>
+        <div class="box sl">
+            <nav class="responsiveSP">
+                <ul>
+                    <li><a href="main page.html">Home</a></li>
+                    <li><a href= "MyTutorial Page.html">Tutorial</a></li>
+                    <li><a href= "login.html">Login</a></li>
+                    <li><a href="Search.html">Search</a></li>
+                    <li><a href="view.html">view</a></li>
+                    <li><a href="UpdateHomePage.html">Update</a></li>
+                    <li><a href="delete.html">Delete Student</a></li>
+                </ul>
+            </nav>
+        </div> 
+        <div class="box cont" style="margin-inline-start: 40px;">
+            <br>
+            <h1>Add Student:</h1>
+            <form>
+            <fieldset>
+            <legend>Details For Each Student</legend>
+            <p> <strong>Student ID:</strong> <input type = "text" id = "ID" placeholder="Enter ID"/></p>
+            <p id="VID"></p> 
+            <p> <strong>First name:</strong> <input type = "text"  id = "fname" placeholder="Enter First name"/></p>
+            <p id="VFN"></p>
+            <p> <strong>Last name:</strong> <input type = "text" id = "lname" placeholder="Enter Last name"/></p>  
+            <p id="VLN"></p>
+            <p> <strong>Phone Number:</strong> <input type = "text" id = "phone" placeholder="Enter Phone Number"/></p>
+            <p id="PHN"></p>
+            <p><i class="fa-solid fa-envelope"></i> <input type = "email" id = "email" placeholder="Enter Email" /></p> 
+            <p id="VEML"></p>
+            <p>
+                <strong>Level:</strong>
+                <input type="radio" name ="Level" value="1" id="L">Level 1
+                <input type="radio" name ="Level" value="2" id="LL">Level 2
+                <input type="radio" name ="Level" value="3" id="LLL">Level 3
+                <input type="radio" name ="Level" value="4" id="LLLL">Level 4
+            </p>
+            <p> <strong>GPA:</strong>  <input type = "text"  id = "GPA" placeholder="Enter GPA"/></p>
+            <p id="VGPA"></p>
+            <p> <strong>Date of birth:</strong> <input type = "date" id = "date"  /></p>
+            <p id="VDOB"></p>     
+            <p>
+                <strong>Gender:</strong>
+                <input type = "radio" name = "Gender" value = "Male"> Male    
+                <input type = "radio" name = "Gender" value = "Female"> Female
+            </p> 
+            <p id="Departement"> 
+                <strong>Department:</strong> 
+                <input type="radio" name ="Departement" value="CS">CS
+                <input type="radio" name ="Departement" value="AI">AI
+                <input type="radio" name ="Departement" value="IT">IT
+                <input type="radio" name ="Departement" value="DS">DS
+                <input type="radio" name ="Departement" value="IS">IS
+            </p>
+            <p> 
+                <strong>Status:</strong>
+                <input type = "radio" name = "Status" value = "active"> active    
+                <input type = "radio" name = "Status" value = "inactive"> inactive
+            </p> 
+            <p><button class="slBtn" type="button" id="btnAdd">Add</button></p>             
+        </fieldset>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>View Students</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="view.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box head">View Page</div>
+        <div class="box sl">
+            <nav class="responsiveSP">
+                <ul>
+                    <li><a href="main page.html">Home</a></li>
+                    <li><a href="MyTutorial Page.html">Tutorial</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="Search.html">Search</a></li>
+                    <li><a href="UpdateHomePage.html">Update</a></li>
+                    <li><a href="Add Student.html">Add_Student</a></li>
+                    <li><a href="delete.html">Delete Student</a></li>
+
+                </ul>
+                <br>
+
+            </nav>
+        </div>
+
+        <div  class="box cont">
+
+            <h2>All Active/InActive Students Information</h2>
+
+
+
+            <form>
+                <label>Choose Active/InActive:</label>
+                <select id="selectStatue">
+                    <option name="type" type="selectStatue" value="All Students">All Students</option>
+                    <option name="type" type="select" value="Active">Active Students</option>
+                    <option name="type" type="select" value="InActive">InActive Students</option>
+                </select>
+
+
+            </form>
+            <div>
+
+                <br> <br>
+                <div class="centertable">
+                    <table>
+                        <thead>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>ID</th>
+                            <th>Level</th>
+                            <th>GPA</th>
+                            <th>Gender</th>
+                            <th>Date of Birth</th>
+                            <th>Mobile Phone</th>
+                            <th>Status</th>
+                            <th>Departement</th>
+                            <th>Change Status</th>
+                        </thead>
+
+                        <tbody id="TBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        
+</body>
+
+</html>
